@@ -35,7 +35,7 @@ namespace TestTaskCSharp
 
             MySqlCommand sqlCommand;
             MySqlDataReader sqlDataReader;
-            String sql, output = "Your Data: \n", id = "", name = "", birthDate = "", phoneNumber = "", address = "", socialNumber = "";
+            String sql, output = "Your Data: \n\n", id = "", name = "", birthDate = "", phoneNumber = "", address = "", socialNumber = "";
 
             sql = "select* from Clients where SocialNumber ='12345543211234'";
             sqlCommand = new MySqlCommand(sql, mySqlConnection);
